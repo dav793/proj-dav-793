@@ -1,0 +1,399 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+html {
+	overflow-x: hidden;
+}
+
+body > * {
+	width: 100%;
+}
+
+#wrapper {
+	background-color: #272822;
+}
+
+/***************** General **********************/
+
+
+
+/***************** EO General **********************/
+
+/***************** Navs **********************/
+
+nav {
+	width: 100%;
+	background-color: #131310;
+}
+
+nav #nav-wrapper {
+	width: 950px;
+	margin: 0 auto;	
+}
+
+nav .push {
+	width: 200px;
+}
+
+nav div.nav-content {
+	width: 950px;
+	height: 40px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 5px;
+}
+
+nav div#account-box {
+	width: 200px;
+	position: absolute;
+	top: 17px;
+	right: 20px;
+
+	font-family: 'OpenSansLight';
+	font-size: 12px;
+	color: #dfdfdf;
+
+	text-align: right;
+}
+
+nav div#account-box a {
+	font-family: 'OpenSansLight';
+	font-size: 12px;
+	color: #dfdfdf;
+	text-decoration: none;
+	border-bottom: dashed 1px #dfdfdf;
+}
+
+nav div#account-box a:hover {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.search-box {
+	float: right;
+}
+
+.search-icon {
+	width: 16px;
+	height: 15px;
+	background-position: -47px 0px;
+	display: inline-block;
+	float: left;
+
+	margin: 10px 5px 0px 0px;
+}
+
+.black-text-field {
+	cursor: text;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+.black-text-field-left {
+	width: 23px;
+	height: 35px;
+	background-position: -164px -9px;
+	display: inline-block;
+	float: left;
+}
+
+.black-text-field-middle {
+	width: 150px;
+	height: 35px;
+	background-repeat: repeat-x;
+	display: inline-block;
+	float: left;
+}
+
+.black-text-field input[type="text"] {
+	width: 163px;
+	height: 35px;
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	text-align: left;
+	position: absolute;
+	font-family: 'OpenSansLight';
+	left: 10px;
+	z-index: 99999;
+}
+
+.black-text-field input:focus {
+	outline: none;
+}
+
+.black-text-field input[type="submit"] {
+	width: 12px;
+	height: 15px;
+	position: absolute;
+	left: 174px;
+	top: 9px;
+	background-color: transparent;
+	border: none;
+	background-position: -457px -72px;
+	visibility: hidden;
+
+	cursor: pointer;
+}
+
+.black-text-field input[type="text"]:focus + input[type="submit"] {
+	visibility: visible;
+}
+
+.black-text-field input[type="submit"]:focus {
+	visibility: visible;
+}
+
+.black-text-field input[type="submit"]:active {
+	visibility: visible;
+}
+
+.black-text-field-right {
+	background-position: -201px -9px;
+	width: 23px;
+	height: 35px;
+	display: inline-block;
+	float: left;
+}
+
+/***************** EO Navs **********************/
+
+/***************** Headers **********************/
+
+header {
+	height: 200px;
+	background-repeat: repeat-x;
+}
+
+header #header-container {
+	width: 950px;
+	margin: 0 auto;
+	padding: 50px 20px 20px 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+header #header-container.homepage {
+	
+}
+
+header h1 {
+	font-family: 'kameronbold';
+	font-size: 35px;
+	color: #ededed;
+	text-transform: uppercase;
+
+	text-shadow: 0px 1px 3px #404040;
+}
+
+/***************** EO Headers **********************/
+
+/***************** Content **********************/
+
+#page-content {
+	padding: 20px 0 150px 0;
+	background-color: #ededed;
+	background-repeat: repeat-x;
+}
+
+#page-content .main-content {
+	width: 950px;
+	margin: 0 auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#page-content .main-content h2 {
+	font-family: 'kameronbold';
+	font-size: 29px;
+	color: #ea6435;
+}
+
+#page-content .main-content .rotomania-carousel {
+	width: 905px;
+	height: 225px;
+	margin-top: 3px;
+	margin-bottom: 40px;
+	position: relative;
+	overflow: visible;
+}
+
+#page-content .main-content .rotomania-carousel > div.btn {
+	position: absolute;
+	top: 60px;
+	width: 35px;
+	height: 61px;
+	cursor: pointer;
+}
+
+#page-content .main-content .rotomania-carousel > div.btn > div {
+	width: 13px;
+	height: 15px;
+	position: relative;
+	top: 22px;
+	left: 11px;
+	z-index: 9999;
+} 
+
+#page-content .main-content .rotomania-carousel > div.left-btn {
+	left: -50px;
+	background-position: -7px -8px;	
+}
+
+#page-content .main-content .rotomania-carousel > div.left-btn:hover {
+	background-position: -87px -8px;	
+}
+
+#page-content .main-content .rotomania-carousel > div.left-btn > div {
+	background-position: -432px -72px;
+}
+
+#page-content .main-content .rotomania-carousel > div.right-btn {
+	right: -50px;
+	background-position: -44px -8px;	
+}
+
+#page-content .main-content .rotomania-carousel > div.right-btn:hover {
+	background-position: -124px -8px;	
+}
+
+#page-content .main-content .rotomania-carousel > div.right-btn > div {
+	background-position: -457px -72px;
+}
+
+#page-content .main-content .rotomania-carousel > div.content {
+	width: 905px;
+	height: 225px;
+	overflow: hidden;
+}
+
+#page-content .main-content .rotomania-carousel > div.content > div {
+	width: 180px;
+	height: 205px;
+	display: inline-block;
+	float: left;
+}
+
+#page-content .main-content .rotomania-carousel > div.content > div > div {
+	width: 150px;
+	height: 205px;
+
+	margin-left: 15px;
+
+	cursor: pointer;
+}
+
+#page-content .main-content .rotomania-carousel > div.content > div > div:hover {
+	background-color: #c0c0c0;
+}
+
+#page-content .main-content .rotomania-carousel > div img {
+	width: 100px;
+	height: 130px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#page-content .main-content .rotomania-carousel > div span {
+	font-family: 'OpenSansRegular';
+	font-size: 18px;
+	color: #555555;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/***************** EO Content **********************/
+
+/***************** Footer **********************/
+
+footer {
+	background-color: #272822;
+	border-top: solid 1px #3c3d39;
+
+	-webkit-box-shadow: inset 0px 10px 15px -10px #0a0a0a;      
+	box-shadow: inset 0px 10px 15px -10px #0a0a0a;
+}
+
+footer #footer-content {
+	width: 100%;
+	height: 200px;
+
+}
+
+footer #footer-content > div {
+	font-family: 'OpenSansRegular';
+	color: #cacaca;
+
+	width: 950px;
+	margin: 0 auto;
+
+
+
+
+
+
+
+
+
+
+
+
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+footer #footer-content > div p {
+	text-align: center;
+	margin-top: 8px;
+	line-height: 175%;
+	font-size: 12px;
+}
+
+footer #footer-content > div p.smaller {
+	text-align: center;
+	margin-top: 8px;
+	line-height: 175%;
+	font-size: 10px;
+}
+
+footer #footer-content > div p a {
+	color: #cacaca;
+	text-decoration: none;
+}
+
+footer #footer-content > div p.smaller a {
+	text-decoration: underline;
+}
+
+footer #footer-content > div a:hover {
+	color: #ffffff;
+}
+
+/***************** EO Footer **********************/
